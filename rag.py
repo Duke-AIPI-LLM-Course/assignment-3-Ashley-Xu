@@ -4,7 +4,6 @@ from augmentation import augmentation
 from generation import generation
 from retrieval import get_similar_texts
 from retrieval import load_chunks_with_embeddings
-from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()

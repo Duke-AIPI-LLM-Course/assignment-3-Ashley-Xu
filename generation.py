@@ -27,7 +27,7 @@ def main():
         },
         {
             "role": "user",
-            "content": "Construct a battalion strategy for regaining control of Kyiv."
+            "content": "I am an infantry battalion commander, and have been asked to secure a airstrip on Sicily Drop Zone, with a time on target of 0400 on 1 March, 2025.  My battalion, 2-508th PIR, will be augmented with an SAPPER engineer platoon and M777 artillary battery.  Draft a warning order, consistent with FM 5.0, in the 5 paragraph oporder format."
         }
     ]
     
