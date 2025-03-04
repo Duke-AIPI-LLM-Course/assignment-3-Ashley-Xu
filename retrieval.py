@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from sentence_transformers import util, SentenceTransformer
 from openai import OpenAI
-from embeddings import createCSV
+#from embeddings import createCSV
 
 #createCSV()
 openai_api_client = OpenAI()
