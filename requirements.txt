@@ -1,13 +1,9 @@
 
 openai==1.64.0
-
 sentence-transformers==2.2.0
-
-
 streamlit==1.42.2
-
 torch==2.6.0
-
 tqdm==4.66.2
 transformers==4.25.1
 
+setuptools_rust==1.10.2
