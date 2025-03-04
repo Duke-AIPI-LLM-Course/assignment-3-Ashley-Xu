@@ -1,4 +1,4 @@
-import numpy
+
 from openai.types.chat import ChatCompletionUserMessageParam, ChatCompletionSystemMessageParam, \
     ChatCompletionMessageParam
 

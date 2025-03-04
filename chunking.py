@@ -1,16 +1,8 @@
-import json
-import os
-import re
-import textwrap
-#import tiktoken
-import uuid
-import fitz
 
+import re
+import fitz
 from tqdm.auto import tqdm
 from spacy.lang.en import English 
-from dotenv import load_dotenv
-
-load_dotenv()
 
 CHUNK_SIZE = 10
 

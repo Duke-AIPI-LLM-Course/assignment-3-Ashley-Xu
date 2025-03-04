@@ -1,10 +1,6 @@
-import os
 
-from dotenv import load_dotenv
 from openai import OpenAI
 from openai.types.chat import ChatCompletionMessageParam
-
-load_dotenv()
 
 openai_api_client = OpenAI()
 

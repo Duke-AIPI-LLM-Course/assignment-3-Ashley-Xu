@@ -4,10 +4,8 @@ import pandas as pd
 import numpy as np
 import torch
 from sentence_transformers import util, SentenceTransformer
-from dotenv import load_dotenv
 from openai import OpenAI
 
-load_dotenv()
 
 openai_api_client = OpenAI()
 

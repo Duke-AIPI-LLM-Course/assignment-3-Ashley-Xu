@@ -1,9 +1,7 @@
 import os
-import time
 import pandas as pd
 from tqdm import tqdm
 from chunking import chunk_documents
-from dotenv import load_dotenv
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 
@@ -12,7 +10,7 @@ min_token_length = 30
 model_name_or_path=os.environ.get('EMBEDDING_MODEL', 'all-mpnet-base-v2')
 embedding_model = SentenceTransformer(model_name_or_path)
 pages_and_chunks = chunk_documents()
-load_dotenv()
+
 
 openai_api_client = OpenAI()
 df = pd.DataFrame(pages_and_chunks)
