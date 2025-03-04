@@ -7,7 +7,7 @@ from sentence_transformers import util, SentenceTransformer
 from openai import OpenAI
 from embeddings import createCSV
 
-createCSV()
+#createCSV()
 openai_api_client = OpenAI()
 
 
