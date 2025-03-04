@@ -3,3 +3,5 @@ openai==1.65.2
 sentence-transformers==3.4.0
 streamlit==1.42.2
 tqdm==4.67.1
+PyMuPDF==1.25.3
+spacy==3.7.4

@@ -5,12 +5,14 @@ import numpy as np
 import torch
 from sentence_transformers import util, SentenceTransformer
 from openai import OpenAI
+from embeddings import createCSV
 
-
+createCSV()
 openai_api_client = OpenAI()
 
 
 def load_chunks_with_embeddings() -> list[dict]:
+
 
     # Import texts and embedding df
     text_chunks_and_embedding_df = pd.read_csv("text_chunks_and_embeddings_df.csv")
