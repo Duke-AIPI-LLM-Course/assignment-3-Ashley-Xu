@@ -28,8 +28,8 @@ def createCSV():
     text_chunks = [item["sentence_chunk"] for item in pages_and_chunks_over_min_token_len]
 # Embed all texts in batches
     text_chunk_embeddings = embedding_model.encode(text_chunks,
-                                               batch_size=32, # you can use different batch sizes here for speed/performance, I found 32 works well for this use case
-                                               convert_to_tensor=True) # optional to return embeddings as tensor instead of array
+                                               batch_size=32, 
+                                               convert_to_tensor=True) 
 
     text_chunks_and_embeddings_df = pd.DataFrame(pages_and_chunks_over_min_token_len)
     embeddings_df_save_path = "text_chunks_and_embeddings_df.csv"
